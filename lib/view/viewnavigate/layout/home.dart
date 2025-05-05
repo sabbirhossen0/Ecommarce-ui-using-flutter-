@@ -1,3 +1,4 @@
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -70,12 +71,6 @@ class _homeState extends State<home> {
         curve: Curves.easeInOut,
       );
     });
-
-
-
-
-
-
   }
 
   void scrollToPreviousc() {
@@ -89,8 +84,6 @@ class _homeState extends State<home> {
         curve: Curves.easeInOut,
       );
     });
-
-
   }
 
   void scrollToNextop() {
@@ -1160,6 +1153,9 @@ SizedBox(height: 100,),
         ],
       ),
     );
+
+
+
   }
 
 

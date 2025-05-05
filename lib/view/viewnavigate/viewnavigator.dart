@@ -19,7 +19,7 @@ class viewnavigator extends StatefulWidget {
 class _viewnavigatorState extends State<viewnavigator> {
 
    TextEditingController search=TextEditingController();
-
+ 
    final searchController searchcontrol = Get.put(searchController());
 
    bool pressed=false;
@@ -35,7 +35,7 @@ class _viewnavigatorState extends State<viewnavigator> {
      cart(),
      wishlist(),
      searchview()
-
+//sabbir
    ];
 
 
@@ -91,9 +91,6 @@ Row(
 
   InkWell(
     onTap: (){
-
-
-
      print('catagory pressed');
     },
     child: Container(
