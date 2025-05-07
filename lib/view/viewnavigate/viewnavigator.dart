@@ -91,7 +91,7 @@ Row(
 
   InkWell(
     onTap: (){
-     print('catagory pressed');
+     print('catagory pressed  catagory item ');
     },
     child: Container(
       child: Row(
